@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label text="My Collage">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </Label>
+      <ImageView fitHeight="180.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@IMG_20190517_081016.jpg" />
+         </image>
+         <VBox.margin>
+            <Insets left="-450.0" />
+         </VBox.margin>
+      </ImageView>
+      <ImageView fitHeight="180.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true" rotate="-90.0">
+         <image>
+            <Image url="@20200824_094938.jpg" />
+         </image>
+         <VBox.margin>
+            <Insets left="-160.0" top="-157.0" />
+         </VBox.margin>
+      </ImageView>
+      <ImageView fitHeight="180.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@IMG_20181208_151022.jpg" />
+         </image>
+         <VBox.margin>
+            <Insets right="-100.0" top="-158.0" />
+         </VBox.margin>
+      </ImageView>
+      <ImageView fitHeight="180.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true">
+         <VBox.margin>
+            <Insets right="-410.0" top="-180.0" />
+         </VBox.margin>
+         <image>
+            <Image url="@14671155_1795599674053282_726992184769648278_n.jpg" />
+         </image>
+      </ImageView>
+      <Label text="My College Days">
+         <VBox.margin>
+            <Insets left="-450.0" />
+         </VBox.margin>
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label text="At Home Now">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="-170.0" top="-26.0" />
+         </VBox.margin>
+      </Label>
+      <Label text="With Friend">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+         <VBox.margin>
+            <Insets right="-95.0" top="-26.0" />
+         </VBox.margin>
+      </Label>
+      <Label text="My First College">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+         <VBox.margin>
+            <Insets right="-400.0" top="-26.0" />
+         </VBox.margin>
+      </Label>
+   </children>
+</VBox>
